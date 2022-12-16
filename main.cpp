@@ -1,6 +1,11 @@
 #include <iostream>
+#include <vector>
+#include "magazin.h"
 
-int main() {
-    std::cout << "Hello, world!\n";
-    return 0;
+using namespace std;
+
+int main()
+{
+    Magazin menu;
+    menu.mainLoop();
 }
